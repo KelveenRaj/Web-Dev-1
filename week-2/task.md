@@ -1,4 +1,3 @@
-```markdown
 # Week 2 Activity: Build a Profile Page
 
 ## Task:
@@ -16,4 +15,3 @@ Your page should:
 - Contain a clickable link.
 - Display an image with proper `alt` text.
 - List 3 or more hobbies.
-```
