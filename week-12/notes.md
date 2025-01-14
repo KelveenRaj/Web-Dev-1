@@ -1,35 +1,28 @@
-# Week 12: Interactive Game Website - Advanced Logic and Refinement
+# Week 12: Guess the Number Game - Part 2
 
-## Objective
+## Goal
 
-In this week, we will implement advanced game logic, handle user input more effectively, and refine the UI for better usability.
+In this part, you will add JavaScript to make the "Guess the Number" game functional.
 
-## Steps
+## What You Will Learn
 
-### **Game Logic**:
+- Using JavaScript to handle user input.
+- Generating random numbers.
+- Displaying messages and updating the DOM.
+- Adding game logic for winning or losing.
 
-- Add game logic to generate a random number.
-- Check user input and provide feedback based on game rules.
-- Example JavaScript code:
+## Tasks
 
-  ```javascript
-  let randomNumber = Math.floor(Math.random() * 100) + 1;
-  let attempts = 0;
+1. Write JavaScript to:
 
-  document
-    .getElementById("guess-button")
-    .addEventListener("click", function () {
-      let userGuess = document.getElementById("user-guess").value;
-      attempts++;
+   - Generate a random number between 1 and 100.
+   - Compare the user's guess with the random number.
+   - Display feedback (e.g., "Too high", "Too low", "Correct!").
+   - Track and display previous guesses.
 
-      if (userGuess == randomNumber) {
-        document.getElementById(
-          "feedback"
-        ).innerText = `Congratulations! You guessed it in ${attempts} attempts.`;
-      } else if (userGuess < randomNumber) {
-        document.getElementById("feedback").innerText = "Too low, try again!";
-      } else {
-        document.getElementById("feedback").innerText = "Too high, try again!";
-      }
-    });
-  ```
+2. Add features:
+
+   - A "Reset" button to restart the game.
+   - Limit the number of guesses to 10.
+
+3. Test the game to ensure it works as expected.

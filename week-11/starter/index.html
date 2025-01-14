@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guess the Number Game</title>
+    <title>Guess the Number</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="game-container">
-      <h1>Guess the Number Game</h1>
-      <p>Guess a number between 1 and 100</p>
-
-      <input type="number" id="user-guess" min="1" max="100" />
-      <button id="guess-button">Guess</button>
-
-      <div class="feedback" id="feedback"></div>
-      <script src="script.js"></script>
+    <div class="game-container">
+      <h1>Guess the Number</h1>
+      <p class="message">Start guessing...</p>
+      <input type="number" class="guess-input" placeholder="Enter your guess" />
+      <button class="guess-btn">Submit</button>
+      <div class="previous-guesses">
+        <h3>Previous Guesses:</h3>
+        <p class="guesses"></p>
+      </div>
     </div>
   </body>
 </html>

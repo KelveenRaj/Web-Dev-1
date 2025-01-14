@@ -1,24 +1,25 @@
-# Week 11: Interactive Game Website - Setup and Basic Interactivity
+# Week 11: Guess the Number Game - Part 1
 
-## Objective
+## Goal
 
-In this week, we will set up the basic structure of the game website and style the layout. We will focus on building the game layout and adding basic interactivity using HTML, CSS, and JavaScript.
+In this part, you will create the structure and style of the "Guess the Number" game using HTML and CSS.
 
-## Steps
+## What You Will Learn
 
-### **HTML Structure**:
+- Structuring the game interface with HTML.
+- Styling the game with CSS to make it visually appealing.
 
-- Create the game layout using divs, input fields, and buttons.
-- Example HTML:
+## Tasks
 
-  ```html
-  <div id="game-container">
-    <h1>Guess the Number Game</h1>
-    <p>Guess a number between 1 and 100</p>
+1. Create a game interface with the following elements:
 
-    <input type="number" id="user-guess" min="1" max="100" />
-    <button id="guess-button">Guess</button>
+   - A heading for the game title.
+   - A box to display game messages (e.g., "Too high!" or "Correct!").
+   - An input field for entering guesses.
+   - A button to submit the guess.
+   - A section to display the player's previous guesses.
 
-    <div class="feedback" id="feedback"></div>
-  </div>
-  ```
+2. Use CSS to style the game:
+   - Center the game content on the page.
+   - Style the buttons and input fields.
+   - Add hover effects for buttons.

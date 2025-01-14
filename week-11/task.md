@@ -1,28 +1,19 @@
-# Week 11 Activity: Create Interactive Game Layout
+# Week 11 Activity: Create the Game Layout
 
-## Task:
+## Task
 
-1. **Create the Game Files**:
+1. Build the HTML structure for the "Guess the Number" game.
+2. Add CSS styles to make the game visually appealing.
 
-   - Create a folder named `starter`.
-   - Inside `starter`, create three files:
-     - **index.html** (HTML structure)
-     - **styles.css** (CSS for styling)
-     - **script.js** (JavaScript for interactivity)
+## Example Output
 
-2. **HTML Structure**:
+Your game should have:
 
-   - Create a file called `index.html` and set up the game layout. Ensure you have a welcome message, input field, buttons, and feedback section.
+- A title at the top.
+- A message box to display feedback.
+- A styled input field and button.
+- A section to show previous guesses.
 
-3. **Add Basic Styling**:
+### Bonus
 
-   - Style the game using CSS (`styles.css`). Use the provided example or modify it as needed.
-
-4. **Implement Interactivity**:
-   - Write JavaScript code (`script.js`) that listens for button clicks and checks user guesses against a random number. Display feedback accordingly.
-
-## Example Output:
-
-- The webpage should have a clear layout for each section (home, quiz, results).
-- Display proper feedback based on user input.
-- Include a button that allows users to start a new game after completion.
+Add a background color or image to the page.
