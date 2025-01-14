@@ -16,6 +16,7 @@
 
 - **Basic HTML Document**:
 
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,3 +27,8 @@
     <p>This is my first web page.</p>
   </body>
 </html>
+```
+
+```
+
+```
