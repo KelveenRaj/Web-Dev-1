@@ -8,3 +8,11 @@
    - A heading with your name.
    - A paragraph introducing yourself.
    - An image (use any image URL).
+
+## Example Output:
+
+When opened in a browser, your page should look something like this:
+
+- Your name as the heading.
+- A short introduction paragraph.
+- An image below your paragraph.
